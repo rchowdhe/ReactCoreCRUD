@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.9.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.1" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ReactCoreCRUD.Entities\ReactCoreCRUD.Entities.csproj" />
+    <ProjectReference Include="..\ReactCoreCRUD.Interfaces\ReactCoreCRUD.Interfaces.csproj" />
+    <ProjectReference Include="..\ReactCoreCRUD.Repository\ReactCoreCRUD.Repository.csproj" />
+  </ItemGroup>
+
+
+</Project>
